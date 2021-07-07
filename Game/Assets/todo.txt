@@ -1,0 +1,6 @@
+fix  boss does no damage
+dont die when u fall off daisy map
+load dont work 
+controler support on meun screen 
+no game over screen
+no death animation

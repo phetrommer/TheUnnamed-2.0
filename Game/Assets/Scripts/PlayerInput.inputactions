@@ -9,13 +9,13 @@
                     "name": "Move",
                     "type": "Value",
                     "id": "7ebbfbea-5a68-465f-8824-cdf2b520f26d",
-                    "expectedControlType": "Stick",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": ""
                 },
                 {
                     "name": "Jump",
-                    "type": "Value",
+                    "type": "Button",
                     "id": "0e91a9b7-d299-4a0d-8714-761ae406dcaf",
                     "expectedControlType": "Button",
                     "processors": "",

@@ -301,6 +301,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Portal Text (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2914513888583761260, guid: 9d7d47ec7d756de44888e5b6b84c9fc1,
+        type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2914513888583761262, guid: 9d7d47ec7d756de44888e5b6b84c9fc1,
         type: 3}
       propertyPath: m_Pivot.x
@@ -420,6 +425,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Portal Text (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2914513888583761260, guid: 9d7d47ec7d756de44888e5b6b84c9fc1,
+        type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2914513888583761262, guid: 9d7d47ec7d756de44888e5b6b84c9fc1,
         type: 3}
       propertyPath: m_Pivot.x
@@ -538,6 +548,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Portal Text (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2914513888583761260, guid: 9d7d47ec7d756de44888e5b6b84c9fc1,
+        type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2914513888583761262, guid: 9d7d47ec7d756de44888e5b6b84c9fc1,
         type: 3}
@@ -2276,6 +2291,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Portal Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 2914513888583761260, guid: 9d7d47ec7d756de44888e5b6b84c9fc1,
+        type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2914513888583761262, guid: 9d7d47ec7d756de44888e5b6b84c9fc1,
         type: 3}
@@ -12298,6 +12318,21 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 755924754}
+    - target: {fileID: 704885257852067363, guid: 7871e2a8f95c360469c85c952beba081,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 704885257852067363, guid: 7871e2a8f95c360469c85c952beba081,
+        type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 704885257852067363, guid: 7871e2a8f95c360469c85c952beba081,
+        type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 704885257852067364, guid: 7871e2a8f95c360469c85c952beba081,
         type: 3}
       propertyPath: player
@@ -12427,6 +12462,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088965882691709867, guid: 7871e2a8f95c360469c85c952beba081,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 221.00002
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7871e2a8f95c360469c85c952beba081, type: 3}
