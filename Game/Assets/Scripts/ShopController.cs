@@ -67,8 +67,9 @@ public class ShopController : MonoBehaviour
         {
             buyButton.text = "Buy Item";
             selectedButton = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject;
-            buttonGlow.enableEmission = true;
-            buttonGlow.emissionRate = 1.0f;
+            ParticleSystem.EmissionModule buttonGlowEmission = buttonGlow.emission;
+            buttonGlowEmission.enabled = true;
+            buttonGlowEmission.rateOverTime = 1.0f;
             buttonGlow.Play();
         }
 
@@ -165,23 +166,10 @@ public class ShopController : MonoBehaviour
             resetVariables();
         }
 
-        if (playerGold < itemCost)
-        {
-            buyButtonObj.gameObject.SetActive(false);
-        }
-        else
-        {
-            buyButtonObj.gameObject.SetActive(true);
-        }
+        buyButtonObj.gameObject.SetActive(playerGold >= itemCost);
 
-        if (playerGold >= itemCost)
-        {
-            buttonGlow.startColor = Color.green;
-        }
-        else
-        {
-            buttonGlow.startColor = Color.red;
-        }
+        ParticleSystem.MainModule mainModule = buttonGlow.main;
+        mainModule.startColor = playerGold >= itemCost ? Color.green : Color.red;
     }
 
 
@@ -203,7 +191,8 @@ public class ShopController : MonoBehaviour
         if (!sellActive)
         {
             buyButtonObj.gameObject.SetActive(true);
-            buttonGlow.enableEmission = false;
+            ParticleSystem.EmissionModule buttonGlowEmission = buttonGlow.emission;
+            buttonGlowEmission.enabled = false;
             disableParticles();
             purchaseTab.transform.GetComponent<Image>().color = sellItemTab.transform.GetComponent<Image>().color;
             sellItemTab.transform.GetComponent<Image>().color = Color.white;
@@ -269,7 +258,8 @@ public class ShopController : MonoBehaviour
 
     public void disableParticles()
     {
-        buttonGlow.emissionRate = 0.0f;
+        ParticleSystem.EmissionModule buttonGlowEmission = buttonGlow.emission;
+        buttonGlowEmission.rateOverTime = 0.0f;
     }
 
     public void buyItem()

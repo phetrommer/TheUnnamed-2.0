@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WardenAI : MonoBehaviour
 {
-    private int hp = 200;
+    //private int hp = 200;
 
     public GameObject arenaWalls;
     public GameObject namePlate;
