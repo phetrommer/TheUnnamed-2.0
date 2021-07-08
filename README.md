@@ -1,5 +1,5 @@
 ### SA Games presents...
-# The Unnamed
+# The Unnamed 2.0 (fixed all bugs + android version)
 
 The Unnamed is a an uncompromising hack 'n' slash game full of enemies and platforming.
 
