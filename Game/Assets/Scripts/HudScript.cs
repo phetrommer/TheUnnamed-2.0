@@ -7,7 +7,6 @@ public class HudScript : MonoBehaviour
     public GameObject damagePowerup, staminaPowerup, atkSpeedPowerup, mSpeedPowerup, jumpPowerup, healthPowerup;
     public static HudScript instance { get; private set; }
 
-    // Start is called before the first frame update
     void Start()
     {
         if (instance != null && instance != this)
@@ -19,9 +18,7 @@ public class HudScript : MonoBehaviour
 
         damagePowerup.SetActive(false); staminaPowerup.SetActive(false); atkSpeedPowerup.SetActive(false); mSpeedPowerup.SetActive(false); jumpPowerup.SetActive(false); healthPowerup.SetActive(false);
     }
-
-    // Update is called once per frame
-
+    
     public void activateDamage()
     {
         StartCoroutine(damage());

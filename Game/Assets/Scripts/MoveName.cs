@@ -15,9 +15,12 @@ public class MoveName : MonoBehaviour
     //Get name string from SaveManager object
     public void getName()
     {
-        if (SaveManager.instance.getName() != "temp")
+        if (SaveManager.instance)
         {
-            nametag.text = SaveManager.instance.getName();
+            if (SaveManager.instance.getName() != "temp")
+            {
+                nametag.text = SaveManager.instance.getName();
+            }
         }
     }
 }

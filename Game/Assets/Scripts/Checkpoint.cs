@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,11 +9,19 @@ using UnityEngine;
 
 public class Checkpoint : MonoBehaviour
 {
-    public GameObject player;
+    private GameObject _player;
+
+    private void Start()
+    {
+        _player = GameObject.FindWithTag("Player");
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         GetComponent<SpriteRenderer>().color = Color.yellow;
-        SaveManager.instance.checkPointSave(player);
+        if (SaveManager.instance)
+        {
+            SaveManager.instance.checkPointSave(_player);
+        }
     }
 }
