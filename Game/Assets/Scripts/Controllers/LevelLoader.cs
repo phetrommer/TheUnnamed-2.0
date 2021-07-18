@@ -7,7 +7,7 @@ public class LevelLoader : MonoBehaviour
 {
     public GameObject player;
     public Animator animator;
-    public float transitionTime = 1f;
+    public float transitionTime = 3f;
 
     public void playerRespawn()
     {

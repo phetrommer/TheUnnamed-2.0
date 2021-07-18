@@ -11,7 +11,10 @@ public class Portal : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             other.gameObject.GetComponent<PlayerCombat>().canInteract = true;
-            GetComponentInChildren<PortalInteractGlow>().isEnabled = true;
+            if (GetComponentInChildren<PortalInteractGlow>())
+            {
+                GetComponentInChildren<PortalInteractGlow>().isEnabled = true;
+            }
         }
     }
 

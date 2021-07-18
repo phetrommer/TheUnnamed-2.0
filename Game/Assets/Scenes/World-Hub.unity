@@ -150,7 +150,7 @@ PrefabInstance:
     - target: {fileID: 1590122314696413896, guid: 4be4423ecc9f2d8439b6c368251b42d5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1590122314696413896, guid: 4be4423ecc9f2d8439b6c368251b42d5,
         type: 3}
@@ -224,7 +224,7 @@ PrefabInstance:
     - target: {fileID: 1590122314696413896, guid: 4be4423ecc9f2d8439b6c368251b42d5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1590122314696413896, guid: 4be4423ecc9f2d8439b6c368251b42d5,
         type: 3}
@@ -711,13 +711,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8429552407048016751, guid: b8004524645402b4baf011a5e03f3e31,
         type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8429552407048016751, guid: b8004524645402b4baf011a5e03f3e31,
+        type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 9054
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8429552407108934686, guid: b8004524645402b4baf011a5e03f3e31,
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8429552407108934687, guid: b8004524645402b4baf011a5e03f3e31,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 8429552407108934687, guid: b8004524645402b4baf011a5e03f3e31,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.14
       objectReference: {fileID: 0}
     - target: {fileID: 8455224353378458028, guid: b8004524645402b4baf011a5e03f3e31,
         type: 3}
@@ -1015,7 +1030,7 @@ PrefabInstance:
     - target: {fileID: 1590122314696413896, guid: 4be4423ecc9f2d8439b6c368251b42d5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1590122314696413896, guid: 4be4423ecc9f2d8439b6c368251b42d5,
         type: 3}
@@ -1710,7 +1725,7 @@ PrefabInstance:
     - target: {fileID: 5700430330407314281, guid: c8c2c2e818cce08489a94a6fdf43f8e3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5700430330407314281, guid: c8c2c2e818cce08489a94a6fdf43f8e3,
         type: 3}
@@ -1916,10 +1931,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Controllers_Managers
       objectReference: {fileID: 0}
+    - target: {fileID: 6327934568250455379, guid: fe001d8a8dfd71c4d8b22804a74a1cb6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6327934568250455388, guid: fe001d8a8dfd71c4d8b22804a74a1cb6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6327934568250455388, guid: fe001d8a8dfd71c4d8b22804a74a1cb6,
         type: 3}
@@ -1971,6 +1991,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6327934568298928528, guid: fe001d8a8dfd71c4d8b22804a74a1cb6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6327934569248346128, guid: fe001d8a8dfd71c4d8b22804a74a1cb6,
         type: 3}
       propertyPath: exitMenu
@@ -1986,6 +2011,11 @@ PrefabInstance:
       propertyPath: selectionImage
       value: 
       objectReference: {fileID: 1014596115}
+    - target: {fileID: 6327934569248346134, guid: fe001d8a8dfd71c4d8b22804a74a1cb6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe001d8a8dfd71c4d8b22804a74a1cb6, type: 3}
 --- !u!1001 &1880419033
@@ -2023,7 +2053,7 @@ PrefabInstance:
     - target: {fileID: 2830657151901429200, guid: 7178a1aca4cf8dc439f61920101db494,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2830657151901429201, guid: 7178a1aca4cf8dc439f61920101db494,
         type: 3}
@@ -2033,7 +2063,7 @@ PrefabInstance:
     - target: {fileID: 2830657151901429202, guid: 7178a1aca4cf8dc439f61920101db494,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2830657151901429202, guid: 7178a1aca4cf8dc439f61920101db494,
         type: 3}
@@ -2310,7 +2340,7 @@ PrefabInstance:
     - target: {fileID: 2914513888583761262, guid: 9d7d47ec7d756de44888e5b6b84c9fc1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 2914513888583761262, guid: 9d7d47ec7d756de44888e5b6b84c9fc1,
         type: 3}
@@ -2415,6 +2445,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GameObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641402174039143921, guid: f68fe9044f4cc024494b06eaca46a0b2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3641402174039143935, guid: f68fe9044f4cc024494b06eaca46a0b2,
         type: 3}
@@ -12298,6 +12333,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 704885257036916957, guid: 7871e2a8f95c360469c85c952beba081,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 704885257151457760, guid: 7871e2a8f95c360469c85c952beba081,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -12308,10 +12348,20 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: toggleShop
       objectReference: {fileID: 0}
+    - target: {fileID: 704885257806197712, guid: 7871e2a8f95c360469c85c952beba081,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 704885257852067361, guid: 7871e2a8f95c360469c85c952beba081,
         type: 3}
       propertyPath: m_Name
       value: ShopKeeperCanvas (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 704885257852067361, guid: 7871e2a8f95c360469c85c952beba081,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 704885257852067362, guid: 7871e2a8f95c360469c85c952beba081,
         type: 3}
