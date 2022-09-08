@@ -597,7 +597,7 @@ TextureImporter:
       213: -4842030187341024987
     second: Meadow_TileSet_197
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -618,6 +618,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -627,8 +628,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -656,6 +657,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -683,6 +685,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -4864,6 +4890,205 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Meadow_TileSet_137: -5026247563476515522
+      Meadow_TileSet_71: 6961078482963311457
+      Meadow_TileSet_159: 5554189075725496199
+      Meadow_TileSet_50: -5743787709905664992
+      Meadow_TileSet_68: 8431600253785992901
+      Meadow_TileSet_108: 5484541185155518699
+      Meadow_TileSet_49: -8724053268626350507
+      Meadow_TileSet_119: 908713339474414592
+      Meadow_TileSet_6: -7434761109038785788
+      Meadow_TileSet_13: -2690868982627962417
+      Meadow_TileSet_142: 208295337072697021
+      Meadow_TileSet_28: -6620258091698979552
+      Meadow_TileSet_190: 5725380388305350569
+      Meadow_TileSet_115: -1326591776789312129
+      Meadow_TileSet_77: -5673798570575622705
+      Meadow_TileSet_172: -2284481501532646726
+      Meadow_TileSet_92: -4770301013917742763
+      Meadow_TileSet_93: -2055208084391600900
+      Meadow_TileSet_88: -8393028990845523766
+      Meadow_TileSet_180: 6937953707988657196
+      Meadow_TileSet_145: -3928450242206153580
+      Meadow_TileSet_124: 3646523199158339462
+      Meadow_TileSet_114: -9221848564397508678
+      Meadow_TileSet_41: -1339638409369391914
+      Meadow_TileSet_136: -1524658906767730090
+      Meadow_TileSet_55: 7675671946814400529
+      Meadow_TileSet_63: -2462210839335750215
+      Meadow_TileSet_121: -2384380276294585860
+      Meadow_TileSet_194: -3541200712681829928
+      Meadow_TileSet_23: -8249083718199544085
+      Meadow_TileSet_21: 3600857243241322671
+      Meadow_TileSet_74: -9026182706247432472
+      Meadow_TileSet_197: -4842030187341024987
+      Meadow_TileSet_53: 5195230587311524765
+      Meadow_TileSet_19: -9007563634802547627
+      Meadow_TileSet_18: 2583670603412294302
+      Meadow_TileSet_62: 1770758882393581832
+      Meadow_TileSet_65: 5813433958858916633
+      Meadow_TileSet_12: 8699318933475213809
+      Meadow_TileSet_164: -4138972529883952483
+      Meadow_TileSet_51: -7418912257194994044
+      Meadow_TileSet_0: 5759431583279088023
+      Meadow_TileSet_11: -8804986213613204124
+      Meadow_TileSet_72: 1157010401057477538
+      Meadow_TileSet_58: -7122531836804827083
+      Meadow_TileSet_36: 8437922447282679926
+      Meadow_TileSet_151: 116516124326398457
+      Meadow_TileSet_84: -1507587894547349615
+      Meadow_TileSet_120: 3603588579051402852
+      Meadow_TileSet_132: 9088827024412991414
+      Meadow_TileSet_110: 6493982339055338508
+      Meadow_TileSet_46: -239775983835323912
+      Meadow_TileSet_104: 3668774719127116158
+      Meadow_TileSet_150: -2483381089813038976
+      Meadow_TileSet_105: -932985416868930590
+      Meadow_TileSet_144: 2142110508086619409
+      Meadow_TileSet_73: 4162813002167884102
+      Meadow_TileSet_123: 7193097203385566077
+      Meadow_TileSet_15: 1154979248622426043
+      Meadow_TileSet_39: -4460359030853080770
+      Meadow_TileSet_178: 2823703514980037790
+      Meadow_TileSet_103: -3019423959653623506
+      Meadow_TileSet_160: -6905423705705825567
+      Meadow_TileSet_193: 5066126873500763301
+      Meadow_TileSet_117: -4786592330373917867
+      Meadow_TileSet_161: 8935065196510339474
+      Meadow_TileSet_182: -3932882490838727935
+      Meadow_TileSet_38: -4523397731306036303
+      Meadow_TileSet_76: -2542085705106259942
+      Meadow_TileSet_5: -4417358915342060561
+      Meadow_TileSet_34: -1840170972997954335
+      Meadow_TileSet_158: -2653217080162780737
+      Meadow_TileSet_43: -1226106636279175968
+      Meadow_TileSet_86: -4500315091991958298
+      Meadow_TileSet_75: 6487798217957435965
+      Meadow_TileSet_131: 4052345624004724066
+      Meadow_TileSet_174: -5228174534976134383
+      Meadow_TileSet_185: -2052453326910968039
+      Meadow_TileSet_61: 3179877562636836948
+      Meadow_TileSet_187: -7732019245426049013
+      Meadow_TileSet_20: -1943253388608146489
+      Meadow_TileSet_54: -8315915475726430826
+      Meadow_TileSet_170: 880438382516475525
+      Meadow_TileSet_135: 7960383124630638851
+      Meadow_TileSet_25: 2836527506465869880
+      Meadow_TileSet_99: 2342777285698088963
+      Meadow_TileSet_113: -8824302264798847833
+      Meadow_TileSet_166: 8730524334747986402
+      Meadow_TileSet_183: 2471016106016349870
+      Meadow_TileSet_156: 4421530957877461036
+      Meadow_TileSet_27: 2144792814427960014
+      Meadow_TileSet_122: 1744734277609884311
+      Meadow_TileSet_33: -6916885495785104248
+      Meadow_TileSet_45: 3560379975884118977
+      Meadow_TileSet_128: 9008819214931520142
+      Meadow_TileSet_173: -7392966278718268091
+      Meadow_TileSet_169: 3303775336170140479
+      Meadow_TileSet_167: -7067578911777190818
+      Meadow_TileSet_67: 3288427114492058470
+      Meadow_TileSet_153: -829884380221465534
+      Meadow_TileSet_7: 8607202641362787883
+      Meadow_TileSet_44: -3460854294608581825
+      Meadow_TileSet_109: 2102298413544683290
+      Meadow_TileSet_3: -3130371476646524921
+      Meadow_TileSet_42: -7450941175656612312
+      Meadow_TileSet_133: 5390136252193378708
+      Meadow_TileSet_30: 8534726247828478166
+      Meadow_TileSet_157: 7528707307025147494
+      Meadow_TileSet_16: 4425509559099065442
+      Meadow_TileSet_91: 7823900117395597391
+      Meadow_TileSet_163: -4862234443339781254
+      Meadow_TileSet_98: -3229909606405114364
+      Meadow_TileSet_85: 7290716369997724880
+      Meadow_TileSet_66: 2647768634344974805
+      Meadow_TileSet_79: 842144597732908216
+      Meadow_TileSet_154: -5835192200707919903
+      Meadow_TileSet_130: -9080368586017702786
+      Meadow_TileSet_146: 332392399984592154
+      Meadow_TileSet_31: 6956334088999201008
+      Meadow_TileSet_22: 8414489864038772940
+      Meadow_TileSet_70: -3952079860643334182
+      Meadow_TileSet_94: -1101388698546162225
+      Meadow_TileSet_152: -8785427580610992938
+      Meadow_TileSet_125: 2227250796305753249
+      Meadow_TileSet_188: -4840020916091200215
+      Meadow_TileSet_112: 4533773660929399022
+      Meadow_TileSet_192: 6174142102155779414
+      Meadow_TileSet_148: -413389671202652843
+      Meadow_TileSet_155: 5348714072430465459
+      Meadow_TileSet_147: 1843052291478478661
+      Meadow_TileSet_56: -8555650440050528308
+      Meadow_TileSet_57: 230879658848683272
+      Meadow_TileSet_82: -912261676134383209
+      Meadow_TileSet_14: -7906851268144341450
+      Meadow_TileSet_35: 6625271619958494198
+      Meadow_TileSet_186: -7886068597096751101
+      Meadow_TileSet_111: -2221210539224487981
+      Meadow_TileSet_176: 429085838740397699
+      Meadow_TileSet_1: -3986839535605421863
+      Meadow_TileSet_140: -7300333342121050930
+      Meadow_TileSet_95: 8845447910709642226
+      Meadow_TileSet_81: 4666384707976154783
+      Meadow_TileSet_139: -205740107627471637
+      Meadow_TileSet_29: -3791349836177187518
+      Meadow_TileSet_129: -2865548421425938192
+      Meadow_TileSet_26: 5081708594134065009
+      Meadow_TileSet_116: -7323804752961396758
+      Meadow_TileSet_69: -2464441294325681812
+      Meadow_TileSet_37: -3758843040931109341
+      Meadow_TileSet_196: 8949346762018737729
+      Meadow_TileSet_32: 3831132402935784428
+      Meadow_TileSet_127: -1984464820143247707
+      Meadow_TileSet_126: 8294928838629274465
+      Meadow_TileSet_80: -2917029101921709988
+      Meadow_TileSet_171: -3916181068079785129
+      Meadow_TileSet_191: 1751759912025017802
+      Meadow_TileSet_195: -6254445964051428003
+      Meadow_TileSet_60: -863628630267598190
+      Meadow_TileSet_177: -8943174881707775897
+      Meadow_TileSet_149: 457401334763612653
+      Meadow_TileSet_138: -4739278573828106731
+      Meadow_TileSet_175: -4779070076797078467
+      Meadow_TileSet_101: -5293246546968411411
+      Meadow_TileSet_107: -9218128956355923360
+      Meadow_TileSet_8: -250433816479477771
+      Meadow_TileSet_100: -9122670893878388154
+      Meadow_TileSet_78: 8938099573128120493
+      Meadow_TileSet_184: 1598800584420995965
+      Meadow_TileSet_189: 4591903400143196980
+      Meadow_TileSet_59: -2137429095656839376
+      Meadow_TileSet_87: -8628038499854608206
+      Meadow_TileSet_162: 4513735745286011649
+      Meadow_TileSet_165: -7646088240693445971
+      Meadow_TileSet_168: 7947534283782919706
+      Meadow_TileSet_2: -7727065469145467503
+      Meadow_TileSet_17: -8316213494861313829
+      Meadow_TileSet_143: 6785671335491467357
+      Meadow_TileSet_40: -6292762816352711958
+      Meadow_TileSet_118: -1731216796918706427
+      Meadow_TileSet_89: 5938636051694097539
+      Meadow_TileSet_96: -842182982692872028
+      Meadow_TileSet_102: -1014215354595222507
+      Meadow_TileSet_106: 3356181933223323638
+      Meadow_TileSet_141: 4376942987345342473
+      Meadow_TileSet_48: 4640345117343197463
+      Meadow_TileSet_9: -591471989711989526
+      Meadow_TileSet_4: -7759106131104283622
+      Meadow_TileSet_97: 520004473621432013
+      Meadow_TileSet_10: -7054008887924300652
+      Meadow_TileSet_179: 2622984478695073085
+      Meadow_TileSet_83: -7969289622640316828
+      Meadow_TileSet_47: -356120770164673803
+      Meadow_TileSet_52: -8190599942471710081
+      Meadow_TileSet_24: 3545034967835673509
+      Meadow_TileSet_181: 8266510178315055304
+      Meadow_TileSet_64: -3765265255857257431
+      Meadow_TileSet_90: 8796664746239531781
+      Meadow_TileSet_134: -1011305545131389289
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

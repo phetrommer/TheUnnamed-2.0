@@ -300,7 +300,7 @@ TextureImporter:
       213: 411446950836021858
     second: RpgItems1_98
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -321,6 +321,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -330,8 +331,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -359,6 +360,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -398,6 +400,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2500,6 +2514,106 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      RpgItems1_81: -8971586025370193303
+      RpgItems1_0: 2177018490394213437
+      RpgItems1_78: -7852561574696020330
+      RpgItems1_4: -1606544274996878532
+      RpgItems1_95: -1200146435760039170
+      RpgItems1_18: -1925705604413821361
+      RpgItems1_60: 6970593767082407451
+      RpgItems1_54: 7762140269485475854
+      RpgItems1_7: -7522059917566843452
+      RpgItems1_90: 3202937156265389223
+      RpgItems1_37: -4877871078954519082
+      RpgItems1_74: 956898654908274010
+      RpgItems1_32: -1701279676650460336
+      RpgItems1_86: -430236853654934587
+      RpgItems1_73: 2501337124419471044
+      RpgItems1_96: -286110386070721706
+      RpgItems1_97: -2207092139708862241
+      RpgItems1_36: -5497282450496554084
+      RpgItems1_88: -2911909634111525206
+      RpgItems1_91: -3766499326483410753
+      RpgItems1_43: 3546648956325325619
+      RpgItems1_39: -9180435206052877221
+      RpgItems1_68: 1150099364865203868
+      RpgItems1_85: 8471375825387667263
+      RpgItems1_44: 3218875486891064072
+      RpgItems1_10: -5783284954531202615
+      RpgItems1_63: 1024327654706727640
+      RpgItems1_58: -4168453039730410616
+      RpgItems1_71: 1055009842949391866
+      RpgItems1_27: -4239708105647885962
+      RpgItems1_76: 5379564789750641159
+      RpgItems1_92: 508241845465882207
+      RpgItems1_98: 411446950836021858
+      RpgItems1_41: 4787425198505753264
+      RpgItems1_34: -3481894534292218997
+      RpgItems1_84: -4333840081318068053
+      RpgItems1_50: 829504513261504068
+      RpgItems1_89: -4402253944268122918
+      RpgItems1_12: 3532090290884030043
+      RpgItems1_23: -5849482874076104423
+      RpgItems1_79: -6744550939163620019
+      RpgItems1_66: -1520474778578369794
+      RpgItems1_51: 4948884497851567272
+      RpgItems1_83: 7016526101926298979
+      RpgItems1_48: -3189237826293149798
+      RpgItems1_25: 2562601298868073662
+      RpgItems1_62: 461904975493045319
+      RpgItems1_8: -4679013220169528684
+      RpgItems1_2: -1812244852503348542
+      RpgItems1_42: -2879132373881459508
+      RpgItems1_75: 9009786617727471697
+      RpgItems1_6: -8051064676242893745
+      RpgItems1_21: -6098877969807893603
+      RpgItems1_40: 8032843394623530329
+      RpgItems1_9: -1907486161286157511
+      RpgItems1_1: -2547253450580561565
+      RpgItems1_15: -5861847801837445979
+      RpgItems1_65: -5663944245633823822
+      RpgItems1_20: -100442597399994304
+      RpgItems1_59: -674749236538323539
+      RpgItems1_38: -3576566182798911979
+      RpgItems1_19: 2447145007831750229
+      RpgItems1_53: 1322060261457878632
+      RpgItems1_35: 2582528061972424549
+      RpgItems1_13: -5662719214869630317
+      RpgItems1_5: 998269421714546344
+      RpgItems1_30: 289229080812041309
+      RpgItems1_70: 2920908007539181428
+      RpgItems1_61: 2217424777187503925
+      RpgItems1_77: 217516156561937738
+      RpgItems1_52: -9117165193764449485
+      RpgItems1_33: 988508033695770374
+      RpgItems1_55: 3282841678293247549
+      RpgItems1_11: 778729002812221220
+      RpgItems1_67: 4990030359810727775
+      RpgItems1_72: -5117526316898926463
+      RpgItems1_26: -3469117576189863891
+      RpgItems1_80: 2663990173153195481
+      RpgItems1_14: 8110285909491708989
+      RpgItems1_56: -5935481144575521207
+      RpgItems1_64: -4319982704817769238
+      RpgItems1_3: 3980967690270211418
+      RpgItems1_45: -3608396002015067582
+      RpgItems1_24: 1058707701475683314
+      RpgItems1_82: 9026435810471703757
+      RpgItems1_94: -1798784220673824589
+      RpgItems1_16: -2029300067610365149
+      RpgItems1_22: 122846902045001237
+      RpgItems1_57: 6503250288686054166
+      RpgItems1_87: -375544489207585158
+      RpgItems1_17: 648357733358411221
+      RpgItems1_29: 1271637134182126625
+      RpgItems1_93: 6969420659962077193
+      RpgItems1_28: -8195544118455362310
+      RpgItems1_46: -8430503679040141898
+      RpgItems1_69: -955596443650415082
+      RpgItems1_31: 5323435768210212266
+      RpgItems1_49: 2303480021162588961
+      RpgItems1_47: -7951476201725234063
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
