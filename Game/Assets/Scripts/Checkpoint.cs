@@ -13,6 +13,13 @@ public class Checkpoint : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         GetComponent<SpriteRenderer>().color = Color.yellow;
-        SaveManager.instance.checkPointSave(player);
+        try
+        {
+            SaveManager.instance.checkPointSave(player);
+        }
+        catch
+        {
+            Debug.Log("Save Manager is missing!");
+        }
     }
 }
