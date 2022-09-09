@@ -5,8 +5,8 @@ public class InstantKillSpikes : MonoBehaviour
     public bool shoot;
     private void Awake()
     {
-        transform.localScale = new Vector3(0.1f, 1, 1);
-        //transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, transform.eulerAngles.z + Random.Range(-10f, 10f));
+        transform.localScale = new Vector3(Random.Range(0.5f, 1.1f), 1, 1);
+        transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, transform.eulerAngles.z + Random.Range(-10f, 10f));
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
