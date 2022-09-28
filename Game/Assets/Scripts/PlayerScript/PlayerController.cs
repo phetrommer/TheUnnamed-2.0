@@ -225,8 +225,8 @@ public class PlayerController : MonoBehaviour
     {
         isDead = true;
         anim.SetBool("isWalking", false);
-        rb.constraints = RigidbodyConstraints2D.FreezeAll;
         anim.SetBool("isDead", true);
+        rb.constraints = RigidbodyConstraints2D.FreezeAll;
         gameOverScreen.SetActive(true);
        // gameOverScreen.GetComponent<GameOverScreen>().Setup();
     }

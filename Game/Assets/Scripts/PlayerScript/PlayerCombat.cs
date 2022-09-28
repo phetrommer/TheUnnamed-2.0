@@ -119,32 +119,38 @@ public class PlayerCombat : MonoBehaviour
     //player light attack
     public void Light(InputAction.CallbackContext context)
     {
-        if (Time.time >= nextAttackTime && stamina >= 40 && !pc.isBlocking)
+        if (!pc.isDead)
         {
-            animator.SetTrigger("ATK_Light");
-
-            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-            foreach (Collider2D enemy in hitEnemies)
+            if (Time.time >= nextAttackTime && stamina >= 40 && !pc.isBlocking)
             {
-                enemy.GetComponent<EnemyHit>().TakeDamage(dmgLight);
+                animator.SetTrigger("ATK_Light");
+
+                Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+                foreach (Collider2D enemy in hitEnemies)
+                {
+                    enemy.GetComponent<EnemyHit>().TakeDamage(dmgLight);
+                }
+                StartCoroutine(UseStamina(20f));
+                pc.Freeze();
+                nextAttackTime = Time.time + 0.5f / attackRate;
             }
-            StartCoroutine(UseStamina(20f));
-            pc.Freeze();
-            nextAttackTime = Time.time + 0.5f / attackRate;
         }
     }
 
     //player heavy attack which also is enabled to move certain objects
     public void Heavy(InputAction.CallbackContext context)
     {
-        if (Time.time >= nextAttackTime && stamina >= 40 && !pc.isBlocking)
+        if (!pc.isDead)
         {
-            animator.SetTrigger("ATK_Heavy");
-            StartCoroutine(Damage(dmgHeavy));
-            StartCoroutine(moveObject("ATK_Heavy"));
-            StartCoroutine(UseStamina(40f));
-            pc.Freeze();
-            nextAttackTime = Time.time + 0.5f / attackRate;
+            if (Time.time >= nextAttackTime && stamina >= 40 && !pc.isBlocking)
+            {
+                animator.SetTrigger("ATK_Heavy");
+                StartCoroutine(Damage(dmgHeavy));
+                StartCoroutine(moveObject("ATK_Heavy"));
+                StartCoroutine(UseStamina(40f));
+                pc.Freeze();
+                nextAttackTime = Time.time + 0.5f / attackRate;
+            }
         }
     }
 
