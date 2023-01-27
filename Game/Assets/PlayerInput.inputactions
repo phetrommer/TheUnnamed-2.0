@@ -11,7 +11,8 @@
                     "id": "7ebbfbea-5a68-465f-8824-cdf2b520f26d",
                     "expectedControlType": "Stick",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Jump",
@@ -19,7 +20,8 @@
                     "id": "0e91a9b7-d299-4a0d-8714-761ae406dcaf",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Attack_Light",
@@ -27,7 +29,8 @@
                     "id": "c144c67a-a559-4df0-818f-824cc94ddbec",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Attack_Heavy",
@@ -35,7 +38,8 @@
                     "id": "2e1284a7-7878-4c90-ae68-9c30dbb095f0",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Shield",
@@ -43,7 +47,8 @@
                     "id": "368f25e5-3523-4a12-ac04-5a2398a33341",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Interact",
@@ -51,7 +56,17 @@
                     "id": "d0af9938-59e4-4530-89d6-2dbbfba52da3",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DEBUG_FPS",
+                    "type": "Button",
+                    "id": "0dd64eac-b558-435a-b857-f0d42151df69",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -228,6 +243,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "30471975-b1a6-453f-8501-b1706ede9af5",
+                    "path": "<Keyboard>/f1",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DEBUG_FPS",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
