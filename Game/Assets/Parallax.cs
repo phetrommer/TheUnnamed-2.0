@@ -17,7 +17,7 @@ public class Parallax : MonoBehaviour
 
     private void Update()
     {
-        distance += speed * Time.deltaTime;
+        distance += Time.deltaTime * speed;
         mat.SetTextureOffset("_MainTex", Vector2.right * distance);
     }
 }
