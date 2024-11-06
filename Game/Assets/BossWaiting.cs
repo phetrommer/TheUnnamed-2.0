@@ -44,17 +44,17 @@ public class BossWaiting : MonoBehaviour
         {
             if (isWalking)
             {
-                rb.velocity = new Vector2(movementSpeed * direction, 0.0f);
+                rb.linearVelocity = new Vector2(movementSpeed * direction, 0.0f);
 
                 if (direction == -1 && gameObject.transform.position.x <= walkPoint)
                 {
-                    rb.velocity = new Vector2(0.0f, 0.0f);
+                    rb.linearVelocity = new Vector2(0.0f, 0.0f);
                     isWalking = false;
                     isIdle = true;
                 }
                 else if (direction == 1 && gameObject.transform.position.x >= walkPoint)
                 {
-                    rb.velocity = new Vector2(0.0f, 0.0f);
+                    rb.linearVelocity = new Vector2(0.0f, 0.0f);
                     isWalking = false;
                     isIdle = true;
                 }
@@ -121,7 +121,7 @@ public class BossWaiting : MonoBehaviour
                     toggleIsLeft();
                 }
             }
-            rb.velocity = new Vector2(movementSpeed * direction, 0.0f);
+            rb.linearVelocity = new Vector2(movementSpeed * direction, 0.0f);
         }
     }
 }

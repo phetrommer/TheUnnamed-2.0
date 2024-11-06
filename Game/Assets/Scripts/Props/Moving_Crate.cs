@@ -21,7 +21,7 @@ public class Moving_Crate : MonoBehaviour
                 gameObject.AddComponent<Rigidbody2D>();
             }
             gameObject.GetComponent<Rigidbody2D>().mass = 10;
-            gameObject.GetComponent<Rigidbody2D>().angularDrag = 1;
+            gameObject.GetComponent<Rigidbody2D>().angularDamping = 1;
             GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePosition;
         }
         else

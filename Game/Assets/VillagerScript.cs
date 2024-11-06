@@ -33,13 +33,13 @@ public class VillagerScript : MonoBehaviour
         {
             if (direction == -1 && gameObject.transform.position.x <= walkPoint)
             {
-                rb.velocity = new Vector2(0.0f, 0.0f);
+                rb.linearVelocity = new Vector2(0.0f, 0.0f);
                 isIdle = true;
                 isWalking = false;
             }
             else if (direction == 1 && gameObject.transform.position.x >= walkPoint)
             {
-                rb.velocity = new Vector2(0.0f, 0.0f);
+                rb.linearVelocity = new Vector2(0.0f, 0.0f);
                 isIdle = true;
                 isWalking = false;
             }
@@ -56,7 +56,7 @@ public class VillagerScript : MonoBehaviour
     {
         if (!isIdle)
         {
-            rb.velocity = new Vector2(movementSpeed * direction, 0.0f);
+            rb.linearVelocity = new Vector2(movementSpeed * direction, 0.0f);
         }
     }
 

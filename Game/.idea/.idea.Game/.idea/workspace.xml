@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="06c33b3f-798c-4ef2-b95a-605add2a86d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Animation Controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Artwork/Tilesets/Ancient Caves Tileset/Tileset and SpriteSheets/winter-animated-smoke-torch-12x38_0.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Artwork/Tilesets/Ancient Caves Tileset/Tileset and SpriteSheets/winter-animated-smoke-torch-12x38_0.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Artwork/Tilesets/Ancient Caves Tileset/Tileset and SpriteSheets/winter-animated-smoke-torch-12x38_16.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Artwork/Tilesets/Ancient Caves Tileset/Tileset and SpriteSheets/winter-animated-smoke-torch-12x38_16.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Artwork/Tilesets/Ancient Caves Tileset/Tileset and SpriteSheets/winter-animated-smoke-torch-12x38_24.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Artwork/Tilesets/Ancient Caves Tileset/Tileset and SpriteSheets/winter-animated-smoke-torch-12x38_24.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gizmos.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gizmos/Cinemachine.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gizmos/Cinemachine/cm_logo_lg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Gizmos/Cinemachine/cm_logo_lg.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Audio Source 1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Audio Source 1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Audio Source.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Audio Source.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BaileyMainPrefabs/Ignore/Scene/GameOver 1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BaileyMainPrefabs/Ignore/Scene/GameOver 1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Checkpoint (2) Variant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Checkpoint (2) Variant.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/GameOver 1 1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/GameOver 1 1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/GameOver 1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/GameOver 1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Lv1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Lv1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Prefabs/Cameras.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Prefabs/Cameras.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Prefabs/GameOver.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Prefabs/GameOver.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Prefabs/Grid.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Prefabs/Grid.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/2x2-winter-cube.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/2x2-winter-cube.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/winter-animated-smoke-torch-1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/winter-animated-smoke-torch-1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/winter-animated-smoke-torch-2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/winter-animated-smoke-torch-2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/winter-animated-smoke-torch-3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/winter-animated-smoke-torch-3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/winter-ring-rock-animated.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/winter-ring-rock-animated.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/winter-tree-1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/winter-tree-1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/winter-tree-2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/winter-tree-2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/winter-tree-dead-1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/winter-tree-dead-1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/winter-tree-dead-2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Props/winter-tree-dead-2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/fix.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials/Tip_Block.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials/Tip_Block.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark00.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark03.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark04.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark05.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark06.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark07.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark08.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark09.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark10.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark11.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark12.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark13.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark14.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark15.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark17.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark18.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark19.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark20.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark21.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark22.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark23.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark24.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark25.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark26.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark27.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark28.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark29.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark30.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark31.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark32.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark33.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark34.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark35.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark36.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark37.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark38.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark39.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark40.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark41.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark42.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark43.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark44.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark45.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark46.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark47.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark48.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/transparentDark/transparentDark49.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/icons_bottles_512x.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/icons_bottles_512x.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_OL_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_OL_blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_OL_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_OL_green.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_beaker_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_beaker_blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_beaker_glas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_beaker_glas.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_beaker_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_beaker_green.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_beaker_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_beaker_red.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_bottle2_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_bottle2_blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_bottle2_glass_empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_bottle2_glass_empty.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_bottle2_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_bottle2_green.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_bottle2_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_bottle2_red.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_bottle_OL_glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_bottle_OL_glass.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_bottle_OL_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_bottle_OL_red.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_decanter_OL_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_decanter_OL_blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_decanter_OL_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_decanter_OL_green.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_decanter_OL_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_decanter_OL_red.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_decanter_glas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_decanter_glas.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_flask2_OL_blue-copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_flask2_OL_blue-copy.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_flask2_OL_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_flask2_OL_blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_flask2_OL_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_flask2_OL_red.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_flask2_glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_flask2_glass.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_flask_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_flask_blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_flask_glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_flask_glass.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_flask_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_flask_green.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_flask_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_flask_red.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_jug_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_jug_blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_jug_empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_jug_empty.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_jug_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_jug_green.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_jug_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_jug_red.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_potion_OL_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_potion_OL_blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_potion_OL_glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_potion_OL_glass.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_potion_OL_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_potion_OL_green.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_potion_OL_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_potion_OL_red.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_urn_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_urn_blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_urn_glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_urn_glass.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_urn_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_urn_green.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_urn_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_urn_red.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_vial_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_vial_blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_vial_glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_vial_glass.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_vial_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_vial_green.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_vial_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_256x/256x_vial_red.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_beaker_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_beaker_blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_beaker_glass_empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_beaker_glass_empty.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_beaker_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_beaker_green.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_beaker_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_beaker_red.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_bottle2_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_bottle2_blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_bottle2_glass_empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_bottle2_glass_empty.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_bottle2_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_bottle2_green.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_bottle2_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_bottle2_red.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_bottle_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_bottle_blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_bottle_glass_empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_bottle_glass_empty.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_bottle_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_bottle_green.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_bottle_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_bottle_red.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_decanter_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_decanter_blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_decanter_glass_empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_decanter_glass_empty.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_decanter_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_decanter_green.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_decanter_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_decanter_red.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_flask1_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_flask1_blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_flask1_glass_empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_flask1_glass_empty.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_flask1_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_flask1_green.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_flask1_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_flask1_red.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_flask2_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_flask2_blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_flask2_glass_empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_flask2_glass_empty.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_flask2_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_flask2_green.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_flask2_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_flask2_red.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_jug_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_jug_blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_jug_glass_empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_jug_glass_empty.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_jug_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_jug_green.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_jug_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_jug_red.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_potion_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_potion_blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_potion_glass_empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_potion_glass_empty.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_potion_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_potion_green.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_potion_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_potion_red.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_urn_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_urn_blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_urn_glass_empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_urn_glass_empty.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_urn_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_urn_green.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_urn_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_urn_red.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_vial_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_vial_blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_vial_glass_empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_vial_glass_empty.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_vial_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_vial_green.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_vial_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/potion_icons_512x/512x_vial_red.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/unity_preview_scene_potions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/package_potions_512x/unity_preview_scene_potions.png.meta" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2oTFuubAJurSMyzBHLQ143b2u8w" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Reverting in main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="D:\Program Files\Unity Hub\Editor\6000.0.25f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\GaMeR\Documents\GitHub\TheUnnamed-2.0\Game -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\GaMeR\Documents\GitHub\TheUnnamed-2.0\Game" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="D:\Program Files\Unity Hub\Editor\6000.0.25f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\GaMeR\Documents\GitHub\TheUnnamed-2.0\Game -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\GaMeR\Documents\GitHub\TheUnnamed-2.0\Game" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06c33b3f-798c-4ef2-b95a-605add2a86d3" name="Changes" comment="" />
+      <created>1730885885333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730885885333</updated>
+      <workItem from="1730885887516" duration="801000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

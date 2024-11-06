@@ -40,7 +40,7 @@ public class Spawner : MonoBehaviour
                     {
                         g.AddComponent<Rigidbody2D>();
                         Rigidbody2D rb = g.GetComponent<Rigidbody2D>();
-                        rb.drag = 2;
+                        rb.linearDamping = 2;
                         rb.mass = 100000;
                         rb.gravityScale = gravityScale;
                         rb.constraints = RigidbodyConstraints2D.FreezeRotation;

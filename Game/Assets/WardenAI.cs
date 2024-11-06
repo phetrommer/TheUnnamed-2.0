@@ -111,7 +111,7 @@ public class WardenAI : MonoBehaviour
 
     private void runVelocity()
     {
-        rb.velocity = new Vector2(movementSpeed, rb.velocity.y);
+        rb.linearVelocity = new Vector2(movementSpeed, rb.linearVelocity.y);
     }
 
     private void checkIfCanAtk()
@@ -184,7 +184,7 @@ public class WardenAI : MonoBehaviour
 
     public void Jump()
     {
-        rb.velocity = new Vector2(movementSpeed * 3, jumpForce);
+        rb.linearVelocity = new Vector2(movementSpeed * 3, jumpForce);
         isJumping = true;
         isGrounded = false;
     }

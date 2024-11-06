@@ -46,7 +46,7 @@ public class ShopKeeper : MonoBehaviour
             {
                 merchantText.SetActive(true);
             }
-            rb.velocity = new Vector2(0.0f, 0.0f);
+            rb.linearVelocity = new Vector2(0.0f, 0.0f);
             isWalking = false;
             isIdle = true;
             playerInProx = true;
@@ -71,13 +71,13 @@ public class ShopKeeper : MonoBehaviour
         {
             if (direction == -1 && shopKeeper.transform.position.x <= walkPoint)
             {
-                rb.velocity = new Vector2(0.0f, 0.0f);
+                rb.linearVelocity = new Vector2(0.0f, 0.0f);
                 isIdle = true;
                 isWalking = false;
             }
             else if(direction == 1 && shopKeeper.transform.position.x >= walkPoint)
             {
-                rb.velocity = new Vector2(0.0f, 0.0f);
+                rb.linearVelocity = new Vector2(0.0f, 0.0f);
                 isIdle = true;
                 isWalking = false;
             }
@@ -129,7 +129,7 @@ public class ShopKeeper : MonoBehaviour
     {
         if (!isIdle)
         {
-            rb.velocity = new Vector2(movementSpeed * direction, 0.0f);
+            rb.linearVelocity = new Vector2(movementSpeed * direction, 0.0f);
         }
     }
 

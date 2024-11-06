@@ -57,7 +57,7 @@ public class PlayerController : MonoBehaviour
             {
                 if (!isBlocking)
                 {
-                    rb.velocity = new Vector2(horizontal * movementSpeed, rb.velocity.y);
+                    rb.linearVelocity = new Vector2(horizontal * movementSpeed, rb.linearVelocity.y);
                 }
                 CheckIfCanJump();
                 UpdateAnimations();
@@ -78,12 +78,12 @@ public class PlayerController : MonoBehaviour
             anim.SetTrigger("isJumping");
             if (context.performed)
             {
-                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
                 amountOfJumpsLeft--;
             }
-            if (context.canceled && rb.velocity.y > 0f)
+            if (context.canceled && rb.linearVelocity.y > 0f)
             {
-                rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
             }
         }
     }
@@ -122,7 +122,7 @@ public class PlayerController : MonoBehaviour
     //checks if player can jump and if they have any more jumps left
     private void CheckIfCanJump()
     {
-        if(IsGrounded() && rb.velocity.y <= 1)
+        if(IsGrounded() && rb.linearVelocity.y <= 1)
         {
             amountOfJumpsLeft = amountOfJumps;
         }
@@ -147,7 +147,7 @@ public class PlayerController : MonoBehaviour
             Flip();
         }
 
-        if (rb.velocity.x > 0.01f || rb.velocity.x < -0.01f)
+        if (rb.linearVelocity.x > 0.01f || rb.linearVelocity.x < -0.01f)
         {
             isWalking = true;
         }
@@ -161,7 +161,7 @@ public class PlayerController : MonoBehaviour
     {
         anim.SetBool("isWalking", isWalking);
         anim.SetBool("isGrounded", IsGrounded());
-        anim.SetFloat("yVelocity", rb.velocity.y);
+        anim.SetFloat("yVelocity", rb.linearVelocity.y);
         anim.SetBool("isBlocking", isBlocking);
     }
     //handles controller inputs for functions other than movement
